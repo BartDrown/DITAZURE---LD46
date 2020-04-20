@@ -33,7 +33,7 @@ public class Game : MonoBehaviour
         deathScreenUI.SetActive(false);
 
         ChildBehaviour.health = 100f;
-
+        score = 0f;
         ChildBehaviour.dead = false;
     }
 
